@@ -59,6 +59,7 @@ module.exports = {
         171: "171px",
         300: "300px",
         334: "334px",
+        360: "360px",
         390: "390px",
         fieldset: "26.625rem",
         input: "27.125rem",
@@ -105,6 +106,7 @@ module.exports = {
         "search-bar": "6249.9375rem",
       },
       spacing: {
+        68: "68px",
         "276.5px": "276.5px",
         "15px": "15px",
       },
