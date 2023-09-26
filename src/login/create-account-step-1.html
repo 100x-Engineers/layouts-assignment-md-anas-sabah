@@ -9,7 +9,7 @@
   <body
     class="flex flex-col gap-3 pt-0 pb-5 px-15px bg-neutral-1000 h-screen w-screen"
   >
-    <section class="bg-neutral-1000 rounded-2xl flex flex-col py-3">
+    <header class="bg-neutral-1000 rounded-2xl flex flex-col py-3">
       <div class="flex gap-5 self-stretch">
         <a href="./index.html"
           ><img
@@ -21,7 +21,7 @@
           Step 1 of 4
         </h1>
       </div>
-    </section>
+    </header>
 
     <section class="flex flex-col gap-5 self-stretch">
       <h1 class="font-px-regular font-bold text-2xl text-neutral-50">
@@ -71,14 +71,75 @@
         </div>
         <div class="flex items-center gap-3 self-stretch">
           <fieldset
-            class="flex py-16 px-3 justify-between self-stretch rounded-4px border border-neutral-500"
+            class="w-171 flex py-4 px-3 justify-between items-center self-stretch border border-neutral-500 rounded-4px"
           >
-            <legend>Month</legend>
-            <input type="date" name="" id="" />
+            <legend
+              class="font-px-regular text-xs font-medium text-neutral-500 px-1"
+            >
+              Month
+            </legend>
+            <input
+              type="text"
+              class="w-72 bg-neutral-1000 outline-none text-neutral-50 font-chirp text-xl"
+            />
+            <img
+              src="../../public/images/create-account-1-signup-chevron-down.svg"
+              alt="down"
+              class="h-6 w-6"
+            />
+          </fieldset>
+          <fieldset
+            class="w-82.5 flex py-4 px-3 justify-between items-center self-stretch rounded-4px border border-neutral-500"
+          >
+            <legend
+              class="font-px-regular text-xs font-medium text-neutral-500 px-1"
+            >
+              Day
+            </legend>
+            <input
+              type="number"
+              class="w-32 bg-neutral-1000 outline-none text-neutral-50 font-chirp text-xl"
+            />
+            <img
+              src="../../public/images/create-account-1-signup-chevron-down.svg"
+              alt="down"
+              class="h-6 w-6"
+            />
+          </fieldset>
+          <fieldset
+            class="w-82.5 flex py-4 px-3 justify-between items-center self-stretch rounded-4px border border-neutral-500"
+          >
+            <legend
+              class="font-px-regular text-xs font-medium text-neutral-500 px-1"
+            >
+              Year
+            </legend>
+            <input
+              type="number"
+              class="w-32 bg-neutral-1000 outline-none text-neutral-50 font-chirp text-xl"
+            />
+            <img
+              src="../../public/images/create-account-1-signup-chevron-down.svg"
+              alt="down"
+              class="h-6 w-6"
+            />
           </fieldset>
         </div>
       </div>
     </section>
-    <section></section>
+    <section
+      class="flex h-360 pt-20 px-4 flex-col justify-end items-center self-stretch"
+    >
+      <a href="./create-account-step-2.html">
+        <button
+          class="py-2 px-6 w-334 rounded-4xl bg-neutral-50 shadow-custom backdrop-blur-custom hover:bg-neutral-200 disabled:bg-neutral-700"
+        >
+          <span
+            class="text-neutral-1000 font-px-regular text-base font-bold text-center"
+            >Create account</span
+          >
+        </button>
+      </a>
+    </section>
   </body>
 </html>
