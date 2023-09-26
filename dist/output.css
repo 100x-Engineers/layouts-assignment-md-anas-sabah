@@ -576,6 +576,10 @@ video {
   height: 100vh;
 }
 
+.h-\[553px\]{
+  height: 553px;
+}
+
 .w-155\.5{
   width: 155.5px;
 }
@@ -662,6 +666,10 @@ video {
 
 .gap-8{
   gap: 2rem;
+}
+
+.self-end{
+  align-self: flex-end;
 }
 
 .self-stretch{
@@ -837,6 +845,11 @@ video {
 .text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-sm{
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .font-bold{
