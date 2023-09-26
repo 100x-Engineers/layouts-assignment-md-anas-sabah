@@ -536,6 +536,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.visible{
+  visibility: visible;
+}
+
 .mb-auto{
   margin-bottom: auto;
 }
@@ -578,6 +582,10 @@ video {
 
 .h-\[553px\]{
   height: 553px;
+}
+
+.h-\[582px\]{
+  height: 582px;
 }
 
 .w-155\.5{
