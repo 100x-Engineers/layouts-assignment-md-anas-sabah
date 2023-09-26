@@ -15,6 +15,7 @@ module.exports = {
         "card-fill": "#16181C",
         success: "#00BE74",
         error: "#8B141A",
+        "secondary-text": "rgba(255, 255, 255, 0.60)",
         "neutral-50": "#F9F9F9",
         "neutral-100": "#F4F4F4",
         "neutral-200": "#E4E4E4",
@@ -48,6 +49,7 @@ module.exports = {
         "15px": "15px",
         xlg: "1.25rem",
         "31px": "31px",
+        "14px": "14px",
       },
       width: {
         155.5: "155.5px",
@@ -99,6 +101,7 @@ module.exports = {
       },
       spacing: {
         "276.5px": "276.5px",
+        "15px": "15px",
       },
     },
   },

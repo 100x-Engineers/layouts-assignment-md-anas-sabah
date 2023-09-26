@@ -29,3 +29,7 @@
   src: url("./public/chirp-heavy-web.woff2") format("woff2");
   font-weight: 900;
 }
+
+.custom-fieldset:focus-within legend {
+  color: #1d9bf0;
+}
