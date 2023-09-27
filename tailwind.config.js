@@ -83,6 +83,7 @@ module.exports = {
         "13.8125rem": "13.8125rem",
       },
       padding: {
+        18: "18px",
         236.5: "236.5px",
         178.436: "178.436px",
         "4px": "4px",
@@ -93,9 +94,11 @@ module.exports = {
       },
       gap: {
         "1px": "1px",
+        "2px": "2px",
         "5px": "5px",
         "10px": "10px",
         100: "100px",
+        128: "128px",
         160: "160px",
         searchbar: "0.9375rem",
       },
@@ -103,6 +106,8 @@ module.exports = {
         "4xl": "65px",
         "5.5xl": "30px",
         "4px": "4px",
+        32: "32px",
+        100: "100px",
         "search-bar": "6249.9375rem",
       },
       spacing: {
