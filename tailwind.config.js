@@ -29,6 +29,7 @@ module.exports = {
         "neutral-950": "#0A0A0A",
         "neutral-1000": "#000",
         "neutral-twitter-blue-disabled": "#7e7e7e",
+        "opac-edit": "rgba(0, 0, 0, 0.60)",
       },
       boxShadow: {
         custom: "0px 8px 16px 0px rgba(0, 0, 0, 0.25)",
@@ -109,6 +110,7 @@ module.exports = {
         "4xl": "65px",
         "5.5xl": "30px",
         "4px": "4px",
+        "30px": "30px",
         32: "32px",
         100: "100px",
         "search-bar": "6249.9375rem",
