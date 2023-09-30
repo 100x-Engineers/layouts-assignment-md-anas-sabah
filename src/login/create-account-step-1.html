@@ -9,13 +9,13 @@
   <body
     class="flex flex-col gap-3 pt-0 pb-5 px-15px bg-neutral-1000 h-screen w-screen"
   >
-    <header class="bg-neutral-1000 rounded-2xl flex flex-col py-3">
+    <header class="bg-neutral-1000 flex flex-col py-3">
       <div class="flex gap-5 self-stretch">
         <a href="./index.html"
           ><img
             src="../../public/images/signup-x.svg"
             alt="cancel"
-            class="cursor-pointer w-6 h-6 flex-shrink-0"
+            class="cursor-pointer flex-shrink-0"
         /></a>
         <h1 class="font-px-regular text-15px font-bold text-neutral-50">
           Step 1 of 4
@@ -71,17 +71,41 @@
         </div>
         <div class="flex items-center gap-3 self-stretch">
           <fieldset
-            class="w-171 flex py-4 px-3 justify-between items-center self-stretch border border-neutral-500 rounded-4px"
+            class="w-2/3 group flex py-4 px-3 justify-between items-center self-stretch border border-neutral-500 rounded-4px focus-within:border-twitter-blue"
           >
             <legend
-              class="font-px-regular text-xs font-medium text-neutral-500 px-1"
+              class="group-focus-within:text-twitter-blue font-px-regular text-xs font-medium text-neutral-500 px-1"
             >
               Month
             </legend>
-            <input
-              type="text"
-              class="w-72 bg-neutral-1000 outline-none text-neutral-50 font-chirp text-xl"
-            />
+            <select
+              required
+              name="months"
+              id="months"
+              class="w-full appearance-none bg-transparent text-neutral-50 focus:outline-none"
+            >
+              <option
+                value=""
+                disabled
+                selected
+                hidden
+                class="text-neutral-500"
+              >
+                Month
+              </option>
+              <option value="january">January</option>
+              <option value="february">February</option>
+              <option value="march">March</option>
+              <option value="april">April</option>
+              <option value="may">May</option>
+              <option value="june">June</option>
+              <option value="july">July</option>
+              <option value="august">August</option>
+              <option value="september">September</option>
+              <option value="october">October</option>
+              <option value="november">November</option>
+              <option value="december">December</option>
+            </select>
             <img
               src="../../public/images/create-account-1-signup-chevron-down.svg"
               alt="down"
@@ -89,17 +113,61 @@
             />
           </fieldset>
           <fieldset
-            class="w-82.5 flex py-4 px-3 justify-between items-center self-stretch rounded-4px border border-neutral-500"
+            class="flex w-1/3 py-4 px-3 justify-between items-center self-stretch rounded-4px border border-neutral-500"
           >
             <legend
               class="font-px-regular text-xs font-medium text-neutral-500 px-1"
             >
               Day
             </legend>
-            <input
-              type="number"
-              class="w-32 bg-neutral-1000 outline-none text-neutral-50 font-chirp text-xl"
-            />
+            <select
+              required
+              name="months"
+              id="months"
+              class="w-full appearance-none bg-transparent text-neutral-50 focus:outline-none"
+            >
+              <option
+                value=""
+                disabled
+                selected
+                hidden
+                class="text-neutral-500"
+              >
+                Day
+              </option>
+
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+              <option value="16">16</option>
+              <option value="17">17</option>
+              <option value="18">18</option>
+              <option value="19">19</option>
+              <option value="20">20</option>
+              <option value="21">21</option>
+              <option value="22">22</option>
+              <option value="23">23</option>
+              <option value="24">24</option>
+              <option value="25">25</option>
+              <option value="26">26</option>
+              <option value="27">27</option>
+              <option value="28">28</option>
+              <option value="29">29</option>
+              <option value="30">30</option>
+              <option value="31">31</option>
+            </select>
             <img
               src="../../public/images/create-account-1-signup-chevron-down.svg"
               alt="down"
@@ -107,17 +175,55 @@
             />
           </fieldset>
           <fieldset
-            class="w-82.5 flex py-4 px-3 justify-between items-center self-stretch rounded-4px border border-neutral-500"
+            class="flex w-1/3 py-4 px-3 justify-between items-center self-stretch rounded-4px border border-neutral-500"
           >
             <legend
               class="font-px-regular text-xs font-medium text-neutral-500 px-1"
             >
               Year
             </legend>
-            <input
-              type="number"
-              class="w-32 bg-neutral-1000 outline-none text-neutral-50 font-chirp text-xl"
-            />
+            <select
+              required
+              name="months"
+              id="months"
+              class="w-full appearance-none bg-transparent text-neutral-50 focus:outline-none"
+            >
+              <option
+                value=""
+                disabled
+                selected
+                hidden
+                class="text-neutral-500"
+              >
+                Year
+              </option>
+
+              <option value="1999">1999</option>
+              <option value="2000">2000</option>
+              <option value="2001">2001</option>
+              <option value="2002">2002</option>
+              <option value="2003">2003</option>
+              <option value="2004">2004</option>
+              <option value="2005">2005</option>
+              <option value="2006">2006</option>
+              <option value="2007">2007</option>
+              <option value="2008">2008</option>
+              <option value="2009">2009</option>
+              <option value="2010">2010</option>
+              <option value="2011">2011</option>
+              <option value="2012">2012</option>
+              <option value="2013">2013</option>
+              <option value="2014">2014</option>
+              <option value="2015">2015</option>
+              <option value="2016">2016</option>
+              <option value="2017">2017</option>
+              <option value="2018">2018</option>
+              <option value="2019">2019</option>
+              <option value="2020">2020</option>
+              <option value="2021">2021</option>
+              <option value="2022">2022</option>
+              <option value="2023">2023</option>
+            </select>
             <img
               src="../../public/images/create-account-1-signup-chevron-down.svg"
               alt="down"
@@ -127,12 +233,10 @@
         </div>
       </div>
     </section>
-    <section
-      class="flex h-360 pt-20 px-4 flex-col justify-end items-center self-stretch"
-    >
+    <section class="flex h-full pt-20 px-4 flex-col justify-end self-stretch">
       <a href="./create-account-step-2.html">
         <button
-          class="py-2 px-6 w-334 rounded-4xl bg-neutral-50 shadow-custom backdrop-blur-custom hover:bg-neutral-200 disabled:bg-neutral-700"
+          class="py-2 px-6 w-full rounded-4xl bg-neutral-50 shadow-custom backdrop-blur-custom hover:bg-neutral-200 disabled:bg-neutral-700"
         >
           <span
             class="text-neutral-1000 font-px-regular text-base font-bold text-center"

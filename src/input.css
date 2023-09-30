@@ -33,3 +33,7 @@
 .custom-fieldset:focus-within legend {
   color: #1d9bf0;
 }
+
+select option {
+  background-color: #000;
+}
