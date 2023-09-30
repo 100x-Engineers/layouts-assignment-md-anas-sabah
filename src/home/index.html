@@ -8,43 +8,43 @@
   </head>
   <body class="flex flex-col bg-neutral-1000 h-screen w-screen">
     <!-- Write your code here -->
-    <section class="flex flex-col h-fit overflow-hidden overflow-y-scroll">
-      <header class="flex gap-128 py-3 px-4 border-b border-neutral-700">
-        <div>
-          <img
-            src="../../public/images/copy-link-user-avatar-1.png"
-            alt="user"
-            class="w-9 h-9 flex-shrink-0"
-          />
+
+    <header class="flex gap-128 py-3 px-4 border-b border-neutral-700">
+      <div>
+        <img
+          src="../../public/images/copy-link-user-avatar-1.png"
+          alt="user"
+          class="w-9 h-9 flex-shrink-0"
+        />
+      </div>
+      <div class="flex gap-2px justify-center">
+        <img src="../../public/images/login-100.svg" alt="logo" />
+        <img src="../../public/images/login-group-27162.svg" alt="logo" />
+      </div>
+    </header>
+    <div
+      class="flex flex-col pt-5 px-20 gap-160 justify-center items-center border-b border-neutral-700"
+    >
+      <div class="flex justify-center items-center gap-160 flex-shrink-0">
+        <div class="flex flex-col justify-between group">
+          <span class="text-neutral-50 font-chirp text-base pb-[16px]"
+            >For You</span
+          >
+          <div class="rounded-5.5xl bg-twitter-blue w-14 h-[3px]"></div>
         </div>
-        <div class="flex gap-2px justify-center">
-          <img src="../../public/images/login-100.svg" alt="logo" />
-          <img src="../../public/images/login-group-27162.svg" alt="logo" />
-        </div>
-      </header>
-      <div
-        class="flex flex-col pt-5 px-20 gap-160 justify-center items-center border-b border-neutral-700"
-      >
-        <div class="flex justify-center items-center gap-160 flex-shrink-0">
-          <div class="flex flex-col justify-between group">
-            <span class="text-neutral-50 font-chirp text-base pb-[16px]"
-              >For You</span
-            >
-            <div class="rounded-5.5xl bg-twitter-blue w-14 h-[3px]"></div>
-          </div>
-          <div class="flex flex-col justify-between">
-            <span class="text-neutral-400 font-chirp text-base pb-[16px]"
-              >Following</span
-            >
-            <div
-              class="rounded-5.5xl bg-twitter-blue w-14 h-[3px] invisible"
-            ></div>
-          </div>
+        <div class="flex flex-col justify-between">
+          <span class="text-neutral-400 font-chirp text-base pb-[16px]"
+            >Following</span
+          >
+          <div
+            class="rounded-5.5xl bg-twitter-blue w-14 h-[3px] invisible"
+          ></div>
         </div>
       </div>
-
+    </div>
+    <section class="flex flex-col h-fit overflow-hidden overflow-y-scroll">
       <div
-        class="flex w-[388px] bg-neutral-1000 self-stretch py-2 px-4 gap-4 border-b border-neutral-700"
+        class="flex w-full bg-neutral-1000 self-stretch py-2 px-4 gap-4 border-b border-neutral-700"
       >
         <img
           src="../../public/images/copy-link-user-avatar-2.png"
@@ -103,7 +103,7 @@
         </section>
       </div>
       <div
-        class="flex w-[388px] bg-neutral-1000 self-stretch py-2 px-4 gap-4 border-b border-neutral-700"
+        class="flex w-full bg-neutral-1000 self-stretch py-2 px-4 gap-4 border-b border-neutral-700"
       >
         <img
           src="../../public/images/copy-link-user-avatar-3.png"
@@ -167,7 +167,7 @@
         </section>
       </div>
       <div
-        class="flex w-[388px] bg-neutral-1000 self-stretch py-2 px-4 gap-4 border-b border-neutral-700"
+        class="flex w-full bg-neutral-1000 self-stretch py-2 px-4 gap-4 border-b border-neutral-700"
       >
         <img
           src="../../public/images/copy-link-user-avatar-2.png"
@@ -231,13 +231,6 @@
       </div>
     </section>
 
-    <div
-      class="flex justify-center bg-searchbar-fill py-3 px-8 text-center absolute left-[90px] bottom-20 rounded-100"
-    >
-      <p class="font-px-regular text-15px text-neutral-50 font-normal">
-        Copied to clipboard
-      </p>
-    </div>
     <a href="../compose-tweet/index.html">
       <div
         class="inline-flex w-16 h-16 p-4 bg-twitter-blue rounded-full absolute right-2 bottom-20"
