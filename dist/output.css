@@ -544,6 +544,10 @@ video {
   visibility: hidden;
 }
 
+.fixed{
+  position: fixed;
+}
+
 .absolute{
   position: absolute;
 }
@@ -582,6 +586,10 @@ video {
 
 .left-\[\]{
   left: ;
+}
+
+.bottom-0{
+  bottom: 0px;
 }
 
 .z-50{
